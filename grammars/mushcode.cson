@@ -1,0 +1,31 @@
+'scopeName': 'source.mcode'
+'name': 'softcode'
+'fileTypes': [
+  'txt'
+]
+'patterns': [
+  {
+    'match':'&\\S*'
+    'name':'support.class.js'
+  }
+  {
+    'match':'%.'
+    'name':'keyword.constant.js'
+  }
+  {
+    'match':'#\\d*'
+    'name':'entity.name.function.js'
+  }
+  {
+    'match':'@(switch|pemit|remit|cemit|sql|assert|break)'
+    'name':'keyword.operator.js'
+  }
+  {
+    'match':'(add|sub|if|iter|extract|setunion|setdiff|lattr|xget|get|attrib_set|set|setr|getr|r|div|sql|cor|member|cand|strlen|orflags|orlflags|t|u|center|align|ljust|rjust|justify|words|isnum|isdbref|after|before|pmatch|setq|switch|mid|comp|lnum|inum|itext|ulocal|space|lt|gte|gt|eq|lte|header|footer|isstaff|ansi|repeat|pemit|remit|cemit|emit|trim|mapsql|filter|filterbool)'
+    'name':'keyword.control.js'
+  }
+  {
+    'match':'@@.*$'
+    'name':'constant.numeric.js'
+  }
+]

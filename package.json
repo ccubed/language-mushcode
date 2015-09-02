@@ -1,0 +1,12 @@
+{
+  "name": "language-mushcode",
+  "version": "0.0.0",
+  "description": "Language definition for mush softcode",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/ccubed/language-mushcode",
+  "repository": "https://github.com/ccubed/language-mushcode.git",
+  "license": "MIT"
+}
