@@ -1,6 +1,6 @@
 {
   "name": "language-mushcode",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Language definition for mush softcode",
   "engines": {
     "atom": "*",
