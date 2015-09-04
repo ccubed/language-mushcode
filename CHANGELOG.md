@@ -4,3 +4,5 @@
 * Changed Homepage to the Atom.io packges page
 ## 0.3.0 - Third Release
 * Changed regular expression for functions to only detect if followed by a (
+## 0.4.0 - Fourth Release
+* Added a couple more functions

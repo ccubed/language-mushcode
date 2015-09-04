@@ -21,7 +21,7 @@
     'name':'keyword.operator.js'
   }
   {
-    'match':'(add|sub|if|iter|extract|setunion|setdiff|lattr|xget|get|attrib_set|set|setr|getr|r|div|sql|cor|member|cand|strlen|orflags|orlflags|t|u|center|align|ljust|rjust|justify|words|isnum|isdbref|after|before|pmatch|setq|switch|mid|comp|lnum|inum|itext|ulocal|space|lt|gte|gt|eq|lte|header|footer|isstaff|ansi|repeat|pemit|remit|cemit|emit|trim|mapsql|filter|filterbool)(?=\\()'
+    'match':'(add|sub|if|iter|extract|setunion|setdiff|lattr|xget|get|attrib_set|set|setr|getr|r|div|sql|cor|member|cand|strlen|orflags|orlflags|t|u|center|align|ljust|rjust|justify|words|isnum|isdbref|after|before|pmatch|setq|switch|mid|comp|lnum|inum|itext|ulocal|space|lt|gte|gt|eq|lte|header|footer|isstaff|ansi|repeat|pemit|remit|cemit|emit|trim|mapsql|filter|filterbool|sqlescape|revwords|name|fullname|ldelete|items|replace)(?=\\()'
     'name':'keyword.control.js'
   }
   {
