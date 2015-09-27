@@ -9,15 +9,23 @@
     'name':'support.class.js'
   }
   {
-    'match':'%.'
+    'match':'%(?!(q|i)).'
     'name':'keyword.constant.js'
+  }
+  {
+    'match':'%i.'
+    'name':'constant.other.js'
+  }
+  {
+    'match':'%q.'
+    'name':'string.quoted.double.js'
   }
   {
     'match':'#\\d*'
     'name':'entity.name.function.js'
   }
   {
-    'match':'@(switch|pemit|remit|cemit|sql|assert|break)'
+    'match':'@(?i)(switch|pemit|remit|cemit|sql|assert|break)(?-i)'
     'name':'keyword.operator.js'
   }
   {

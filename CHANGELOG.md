@@ -6,3 +6,5 @@
 * Changed regular expression for functions to only detect if followed by a (
 ## 0.4.0 - Fourth Release
 * Added a couple more functions
+## 0.4.1 - Minor Release
+* Apparently i messed the package up somewhere when syncing to github
