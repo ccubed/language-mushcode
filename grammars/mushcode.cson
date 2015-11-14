@@ -9,23 +9,23 @@
     'name':'support.class.js'
   }
   {
-    'match':'%(?!(q|i)).'
+    'match':'%(?!(q|i|v))..?'
     'name':'keyword.constant.js'
   }
   {
-    'match':'%i.'
-    'name':'constant.other.js'
-  }
-  {
-    'match':'%q.'
+    'match':'%(q|v|i)(?!<).'
     'name':'string.quoted.double.js'
   }
   {
-    'match':'#\\d*'
+    'match':'%q<.*>'
+    'name':'string.quoted.double.js'
+  }
+  {
+    'match':'#-?\\d*'
     'name':'entity.name.function.js'
   }
   {
-    'match':'@(?i)(switch|pemit|remit|cemit|sql|assert|break)(?-i)'
+    'match':'@(?i)(switch|pemit|remit|cemit|sql|assert|break|link|create|set|power|lock|lset|wipe|fo|force|trigger)(?-i)'
     'name':'keyword.operator.js'
   }
   {
@@ -34,6 +34,14 @@
   }
   {
     'match':'@@.*$'
+    'name':'constant.numeric.js'
+  }
+  {
+    'match':'\/\/.*$'
+    'name':'constant.numeric.js'
+  }
+  {
+    'match':'\/\*.*\*\/'
     'name':'constant.numeric.js'
   }
 ]
